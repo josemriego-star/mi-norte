@@ -1,0 +1,18 @@
+MI NORTE 1.0 - PROTOTIPO FUNCIONAL LOCAL
+
+Incluye: tareas, prioridades, fechas, revisión del día, hábitos, problemas y pasos pequeños, lecturas, clientes y registro manual de obligaciones, exportación/importación de respaldos.
+
+USO:
+1. Subir TODOS los archivos de esta carpeta a un sitio HTTPS (por ejemplo GitHub Pages, en un repositorio SEPARADO de Mercator).
+2. Abrir la dirección del sitio en el celular.
+3. En el navegador, elegir Agregar a pantalla de inicio / Instalar aplicación.
+4. Abrir una vez con internet para que se descarguen los recursos. Después puede funcionar sin conexión.
+
+IMPORTANTE:
+- Los datos se guardan SOLO en el navegador/dispositivo mediante IndexedDB.
+- NO hay todavía sincronización entre dispositivos ni cuentas multiusuario.
+- NO hay alertas push ni cálculo automático de vencimientos DNIT. Las fechas de obligaciones se cargan manualmente y deben verificarse oficialmente.
+- No se ha implementado seguridad suficiente para usar información profesional sensible en dispositivos compartidos.
+- Exportar respaldos periódicamente. Borrar datos del navegador puede eliminar los registros.
+- La revisión nocturna se ejecuta al pulsar el botón; no hay ejecución programada en segundo plano.
+- Para pruebas en computadora puede usarse un servidor local HTTP; la instalación PWA requiere HTTPS o localhost.
